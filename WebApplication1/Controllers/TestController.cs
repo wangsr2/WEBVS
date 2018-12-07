@@ -28,22 +28,24 @@ namespace WebApplication1.Controllers
         }
         public ActionResult GetView()
         {
+            string greeting;
             //获取当前时间
-            //DateTime dt = DateTime.Now;
+            DateTime dt = DateTime.Now;
 
             //获取当前小时数
-            //int hour = dt.Hour;
+            int hour = dt.Hour;
             //根据小时数判断需要返回哪个视图
-            //if (hour > 12)
-            //{
-            //  return View("MyView");
-            //}
-            //else
-            //{
-            //    return View("YourView");
-            // }
+            if (hour < 12)
+            {
+              greeting="早上好";
+            }
+            else
+            {
+              greeting ="下午好";
+            }
+            ViewData["greeting"] = greeting;
             Employee emp = new Employee();
-            emp.Name = "历史";
+            emp.Name = "混蛋";
             emp.Salary = 20002;
             ViewData["EmpKey"] = emp;
             return View("MyView");
