@@ -1,0 +1,33 @@
+﻿@using WebApplication1.Models
+@model Employee
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>GetView</title>
+</head>
+<body>
+    <h1>@Model.Name,@((string)ViewData["greeting"])!</h1><hr />
+    <div> 
+        <h3>我怎么能够把你来比作夏天呢？<br />
+　　       你比它可爱也比它温婉：<br />
+　　       狂风把五月的花蕾摇撼，<br />
+　　       夏天的足迹匆匆而去：<br />
+　　       天上的眼睛有时照得太酷烈，<br />
+　　       它那炳耀的金颜又常遭掩蔽：<br />
+　　       被机缘或无常的天道所摧折，<br />
+　　       没有芳艳不凋残或不销毁。<br />
+　　       但是你的长夏永远不会雕歇，<br />
+　　       你的美艳亦不会遭到损失，<br />
+　　       死神也力所不及，<br />
+　　       当你在不朽的诗里与时同长。<br />
+　　       只要一天有人类，或人有眼睛，<br />
+　　       这诗将长存，并赐予你生命。</h3>
+    </div>
+</body>
+</html>

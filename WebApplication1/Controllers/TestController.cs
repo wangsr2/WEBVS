@@ -47,8 +47,8 @@ namespace WebApplication1.Controllers
             Employee emp = new Employee();
             emp.Name = "混蛋";
             emp.Salary = 20002;
-            ViewData["EmpKey"] = emp;
-            return View("MyView");
+            ViewBag.EmpKey = emp;
+            return View("MyView",emp);
 
         }
     }
