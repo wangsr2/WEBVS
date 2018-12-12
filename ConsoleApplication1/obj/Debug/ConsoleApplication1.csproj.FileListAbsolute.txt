@@ -1,0 +1,6 @@
+D:\WEBVS\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
+D:\WEBVS\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+D:\WEBVS\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+D:\WEBVS\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+D:\WEBVS\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb
+D:\WEBVS\ConsoleApplication1\obj\Debug\ConsoleApplication1.csprojResolveAssemblyReference.cache

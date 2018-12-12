@@ -12,14 +12,14 @@ namespace WebApplication1.Models
             get;
             set;
         }
-        public string Adddress
+        public string Address
         {
             get;
             set;
         }
-        public override string ToString()
-        {
-            return this.CustomerName+"-"+this.Adddress;
-        }
+        //public override string ToString()
+        //{
+        //    return this.CustomerName+"-"+this.Address;
+        //}
     }
 } 
