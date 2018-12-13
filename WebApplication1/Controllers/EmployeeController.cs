@@ -36,6 +36,10 @@ namespace WebApplication1.Controllers
                 listEmpVm.Add(empViewModel);
               
             }
+
+            empListModel.EmployeeViewList = listEmpVm;
+            empListModel.UserName = "admin";
+            empListModel.Greeting = "中午好！";
             return View(empListModel);
         }
     }
