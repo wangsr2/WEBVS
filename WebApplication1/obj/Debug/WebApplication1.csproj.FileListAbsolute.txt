@@ -115,6 +115,11 @@ D:\WEBVS\WebApplication1\bin\zh-Hans\System.Web.Razor.resources.dll
 D:\WEBVS\WebApplication1\bin\zh-Hans\System.Web.WebPages.resources.dll
 D:\WEBVS\WebApplication1\bin\zh-Hans\System.Web.WebPages.Deployment.resources.dll
 D:\WEBVS\WebApplication1\bin\zh-Hans\System.Web.WebPages.Razor.resources.dll
-D:\WEBVS\WebApplication1\obj\Debug\WebApplication1.csprojResolveAssemblyReference.cache
 D:\WEBVS\WebApplication1\obj\Debug\WebApplication1.dll
 D:\WEBVS\WebApplication1\obj\Debug\WebApplication1.pdb
+D:\WEBVS\WebApplication1\bin\EntityFramework.dll
+D:\WEBVS\WebApplication1\bin\EntityFramework.SqlServer.dll
+D:\WEBVS\WebApplication1\bin\EntityFramework.xml
+D:\WEBVS\WebApplication1\bin\EntityFramework.SqlServer.xml
+D:\WEBVS\WebApplication1\bin\zh-Hans\EntityFramework.resources.dll
+D:\WEBVS\WebApplication1\obj\Debug\WebApplication1.csprojResolveAssemblyReference.cache

@@ -14,7 +14,22 @@ namespace WebApplication1.Controllers
         public ActionResult Index()
         {
             EmployeeListViewModel empListModel = new EmployeeListViewModel();
-            //实例化员工信息业务层
+         
+            empListModel.EmployeeViewList = getEmpVmList();
+            empListModel.UserName = getUserName();
+            empListModel.Greeting = getGreeting();
+            return View(empListModel);
+        }
+
+        public ActionResult AddNew()
+        {
+            return View("CreateEmployee");
+        }
+
+        [NonAction]
+        List<EmployeeViewModel> getEmpVmList()
+        {
+            
             EmployeeBusinessLayer empBai = new EmployeeBusinessLayer();
 
             var listEmp = empBai.GetEmployeeList();
@@ -34,13 +49,23 @@ namespace WebApplication1.Controllers
                     empViewModel.EmployeeGrade = "屌丝";
                 }
                 listEmpVm.Add(empViewModel);
-              
-            }
 
-            empListModel.EmployeeViewList = listEmpVm;
-            empListModel.UserName = "admin";
-            empListModel.Greeting = "中午好！";
-            return View(empListModel);
+            }
+            return listEmpVm;
+        }
+
+
+        [NonAction]
+        string getGreeting()
+        {
+           
+            return "早上好";
+        }
+
+        [NonAction]
+        string getUserName()
+        {
+            return "Admin";
         }
     }
 }
